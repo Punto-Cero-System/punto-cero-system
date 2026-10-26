@@ -1,0 +1,24 @@
+{
+  "name": "punto-cero-portal",
+  "version": "0.1.0",
+  "description": "Punto Cero System - Universal Entry Portal",
+  "private": true,
+  "workspaces": [],
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "punto-cero-contracts": "workspace:^",
+    "punto-cero-core-client": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "build": "tsc build",
+    "dev": "echo 'Development server placeholder'",
+    "test": "echo 'No tests yet - S4 restrictions apply'"
+  },
+  "license": "MIT"
+}

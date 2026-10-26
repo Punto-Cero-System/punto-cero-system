@@ -1,0 +1,22 @@
+{
+  "name": "system-operations",
+  "version": "1.0.0",
+  "description": "S29 System Operations Layer - Universal core administration, monitoring, and configuration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest"
+  },
+  "keywords": ["punto-cero", "system", "operations", "S29", "administration"],
+  "author": "Punto Cero System",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": []
+}

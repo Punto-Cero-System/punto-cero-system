@@ -1,0 +1,32 @@
+{
+  "name": "punto-cero-context-engine",
+  "version": "0.1.0",
+  "description": "Punto Cero System - Context Engine Foundation. Universal context management: identity, organization, workspace, license. No authentication, no users, no vertical integration.",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc build --project tsconfig.json",
+    "watch": "tsc watch",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "punto-cero",
+    "context-engine",
+    "context",
+    "universal",
+    "identity",
+    "organization",
+    "workspace",
+    "license"
+  ],
+  "license": "MIT",
+  "workspaces": [],
+  "dependencies": {
+    "punto-cero-contracts": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "punto-cero-contracts",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Punto Cero System - Public Contracts package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc build --project tsconfig.json",
+    "watch": "tsc watch",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "punto-cero",
+    "contracts",
+    "public-contracts",
+    "system"
+  ],
+  "license": "MIT",
+  "workspaces": []
+}

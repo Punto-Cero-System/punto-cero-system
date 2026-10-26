@@ -1,0 +1,34 @@
+{
+  "name": "system-intelligence",
+  "version": "1.0.0",
+  "description": "System Intelligence Foundation - L1 universal intelligence layer. Observes System events, analyzes states, generates recommendations. NO executes, NO governs, NO replaces authorization.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc build",
+    "test": "jest --config ../../jest.config.json"
+  },
+  "keywords": ["system", "intelligence", "observation", "recommendation", "S34"],
+  "author": "Punto Cero System",
+  "license": "MIT",
+  "dependencies": {
+    "@pzero/core": "1.0.0"
+  },
+  "peerDependencies": {
+    "@pzero/s21-governance": "1.0.0",
+    "@pzero/s22-policy": "1.0.0",
+    "@pzero/s23-execution": "1.0.0",
+    "@pzero/s29-operations": "1.0.0",
+    "@pzero/s30-production": "1.0.0",
+    "@pzero/s31-commercial": "1.0.0",
+    "@pzero/s32-control-plane": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punto-zero/system-intelligence.git"
+  },
+  "bugs": {
+    "url": "https://github.com/punto-zero/system-intelligence/issues"
+  },
+  "homepage": "https://github.com/punto-zero/system-intelligence#readme"
+}

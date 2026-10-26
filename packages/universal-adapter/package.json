@@ -1,0 +1,30 @@
+{
+  "name": "punto-cero-universal-adapter",
+  "version": "0.1.0",
+  "description": "Punto Cero System - Universal Consumer Adapter Foundation. Standard adapter layer for connecting L2 consumers. No vertical integration, no Core modification, declarations only.",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc build --project tsconfig.json",
+    "watch": "tsc watch",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "punto-cero",
+    "universal-adapter",
+    "consumer",
+    "adapter",
+    "integration"
+  ],
+  "license": "MIT",
+  "workspaces": [],
+  "dependencies": {
+    "punto-cero-contracts": "workspace:^",
+    "punto-cero-consumer-registry": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

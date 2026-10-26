@@ -1,0 +1,32 @@
+{
+  "name": "system-control-plane",
+  "displayName": "S32 Control Plane Foundation",
+  "version": "1.0.0",
+  "description": "Punto Cero System Control Plane - administration, configuration, control actions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config ../../jest.config.json",
+    "lint": "eslint 'src/**/*.ts' --ignore-pattern 'node_modules'"
+  },
+  "keywords": ["punto-cero", "control-plane", "administration", "configuration", "actions"],
+  "author": "Punto Cero System",
+  "license": "MIT",
+  "peerDependencies": {
+    "system-operations": "1.0.0",
+    "system-production": "1.0.0",
+    "system-commercial": "1.0.0"
+  },
+  "dependencies": {
+    "system-operations": "1.0.0",
+    "system-production": "1.0.0",
+    "system-commercial": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.0",
+    "jest": "~29.0.0",
+    "@types/jest": "~29.0.0",
+    "ts-jest": "~29.0.0"
+  }
+}

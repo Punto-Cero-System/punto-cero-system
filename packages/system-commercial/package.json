@@ -1,0 +1,30 @@
+{
+  "name": "system-commercial",
+  "displayName": "S31 Commercial Foundation",
+  "version": "1.0.0",
+  "description": "Punto Cero System Commercial Foundation - licensing, plans, commercial accounts, subscriptions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config ../../jest.config.json",
+    "lint": "eslint 'src/**/*.ts' --ignore-pattern 'node_modules'"
+  },
+  "keywords": ["punto-cero", "commercial", "foundation", "licensing", "subscription"],
+  "author": "Punto Cero System",
+  "license": "MIT",
+  "peerDependencies": {
+    "system-operations": "1.0.0",
+    "system-production": "1.0.0"
+  },
+  "dependencies": {
+    "system-operations": "1.0.0",
+    "system-production": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.0",
+    "jest": "~29.0.0",
+    "@types/jest": "~29.0.0",
+    "ts-jest": "~29.0.0"
+  }
+}

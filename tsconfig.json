@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "Node16",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "contracts/*": ["packages/contracts/*"],
+      "context/*": ["packages/context/*"],
+      "universal-adapter/*": ["packages/universal-adapter/*"],
+      "consumer-registry/*": ["packages/consumer-registry/*"],
+      "apps/portal/*": ["apps/portal/*"],
+      "apps/gateway/*": ["apps/gateway/*"]
+    }
+  },
+  "include": [
+    ".",
+    "packages/*",
+    "apps/*"
+  ],
+  "exclude": ["node_modules", ".next"]
+}

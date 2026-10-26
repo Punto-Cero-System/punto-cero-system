@@ -1,0 +1,20 @@
+{
+  "name": "punto-cero-core-client",
+  "version": "0.2.0-next",
+  "description":"Core Client - Official client communication between Punto Cero System and Core L1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "workspaces": [],
+  "dependencies": {
+    "punto-cero-contracts": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "echo 'No tests yet'"
+  },
+  "license": "MIT"
+}

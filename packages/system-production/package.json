@@ -1,0 +1,28 @@
+{
+  "name": "system-production",
+  "displayName": "S30 Production Platform Foundation",
+  "version": "1.0.0",
+  "description": "Punto Cero System Production Platform - operational infrastructure, deployment, monitoring, and lifecycle management",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config ../../jest.config.json",
+    "lint": "eslint 'src/**/*.ts' --ignore-pattern 'node_modules'"
+  },
+  "keywords": ["punto-cero", "production", "platform", "deployment", "monitoring"],
+  "author": "Punto Cero System",
+  "license": "MIT",
+  "peerDependencies": {
+    "system-operations": "1.0.0"
+  },
+  "dependencies": {
+    "system-operations": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.0",
+    "jest": "~29.0.0",
+    "@types/jest": "~29.0.0",
+    "ts-jest": "~29.0.0"
+  }
+}

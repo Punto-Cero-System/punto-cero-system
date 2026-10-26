@@ -1,0 +1,29 @@
+{
+  "name": "punto-cero-consumer-registry",
+  "version": "0.1.0",
+  "description": "Punto Cero System - Consumer Registry Foundation. Universal consumer registration: identity, type, version, status, metadata. No authentication, no users, no vertical integration.",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc build --project tsconfig.json",
+    "watch": "tsc watch",
+    "test": "echo 'No tests yet'"
+  },
+  "keywords": [
+    "punto-cero",
+    "consumer-registry",
+    "consumer",
+    "registry",
+    "identity"
+  ],
+  "license": "MIT",
+  "workspaces": [],
+  "dependencies": {
+    "punto-cero-contracts": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
